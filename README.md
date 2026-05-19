@@ -2,9 +2,9 @@
 
 > Phân loại khối u não qua ảnh MRI sử dụng Transfer Learning (ResNet50) với PyTorch.
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c?logo=pytorch)
-![License](https://img.shields.io/badge/License-MIT-green)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg)](https://pytorch.org/)
+[![License MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
