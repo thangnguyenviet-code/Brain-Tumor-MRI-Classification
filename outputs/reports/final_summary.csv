@@ -1,0 +1,2 @@
+overall_acc,f1_macro,f1_weighted,macro_auc,total_errors,total_samples,best_epoch,val_loss,val_acc
+80.778,0.7939,0.8039,0.9551,100,1311,1,0.6506,85.2975

@@ -1,0 +1,27 @@
+# ==========================================
+# CẤU HÌNH DỰ ÁN PHÂN LOẠI U NÃO
+# ==========================================
+
+data:
+  raw_dir: "data"
+  image_size: 224
+  classes: ["glioma", "meningioma", "notumor", "pituitary"]
+
+training:
+  batch_size: 32
+  epochs: 20
+  learning_rate: 0.001
+  num_workers: 2
+  seed: 42
+
+model:
+  architecture: "resnet18"
+  num_classes: 4
+  pretrained: true
+  warmup_epochs: 3
+  unfreeze_layers: 2
+
+paths:
+  best_model: "models/best_model.pth"
+  figures: "outputs/figures"
+  logs: "outputs/logs"

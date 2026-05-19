@@ -1,0 +1,14 @@
+# Môi trường ảo
+env_mri/
+
+# Thư viện Weights & Biases
+wandb/
+
+# Bộ nhớ đệm Python và Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Các file trọng số mô hình nặng (Tránh vượt giới hạn 100MB của GitHub)
+*.pth
+outputs/models/
